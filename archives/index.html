@@ -14,6 +14,13 @@
 
 
 
+  
+  
+    
+    
+  <script src="/swimmmmm/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/swimmmmm/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+
 
 
 
@@ -79,13 +86,16 @@
 
 
 
+<meta name="description" content="瞅你咋的！">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hi Swimmmmmm">
 <meta property="og:url" content="https://kaka2016.github.io/swimmmmm/archives/index.html">
 <meta property="og:site_name" content="Hi Swimmmmmm">
+<meta property="og:description" content="瞅你咋的！">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hi Swimmmmmm">
+<meta name="twitter:description" content="瞅你咋的！">
 
 
 
@@ -184,7 +194,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
         <li class="menu-item menu-item-home">
           <a href="/swimmmmm/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-首页"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             首页
           </a>
@@ -194,7 +204,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
         <li class="menu-item menu-item-about">
           <a href="/swimmmmm/about/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-关于"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
             关于
           </a>
@@ -211,22 +221,22 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
         </li>
       
         
-        <li class="menu-item menu-item-archives">
-          <a href="/swimmmmm/archives/" rel="section">
+        <li class="menu-item menu-item-categories">
+          <a href="/swimmmmm/categories/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-归档"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
-            归档
+            分类
           </a>
         </li>
       
         
-        <li class="menu-item menu-item-commonweal">
-          <a href="/swimmmmm/404/" rel="section">
+        <li class="menu-item menu-item-archives">
+          <a href="/swimmmmm/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            公益404
+            归档
           </a>
         </li>
       
@@ -423,8 +433,12 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/swimmmmm/images/avatar.jpg"
+                alt="swimmmmmm" />
+            
               <p class="site-author-name" itemprop="name">swimmmmmm</p>
-              <p class="site-description motion-element" itemprop="description"></p>
+              <p class="site-description motion-element" itemprop="description">瞅你咋的！</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -475,7 +489,8 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -485,7 +500,14 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+<div class="powered-by">
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
+  本站访客数:<span id="busuanzi_value_site_uv"></span>
+</span>
+</div>
+
+<!--  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
@@ -494,6 +516,7 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
 
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+-->
 
 
 
@@ -671,8 +694,8 @@ color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="//cdn.bootcss.com/canv
   
 
   
-  
-	
-  
+ 
 </body>
 </html>
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
